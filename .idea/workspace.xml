@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d331c5c-d250-4b6c-8307-62ce5a888abd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n11TestOdevi/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/n11TestOdevi/src/test/java/FacebookLogin.java" />
-    </list>
+    <list default="true" id="3d331c5c-d250-4b6c-8307-62ce5a888abd" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/n11TestOdevi/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -248,12 +245,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505602041439</updated>
-      <workItem from="1505602042736" duration="127000" />
+      <workItem from="1505602042736" duration="194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127000" />
+    <option name="totallyTimeSpent" value="194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
