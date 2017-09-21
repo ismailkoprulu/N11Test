@@ -17,8 +17,8 @@
       <file leaf-file-name="FacebookLogin.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/n11TestOdevi/src/test/java/FacebookLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="913">
-              <caret line="447" column="0" lean-forward="false" selection-start-line="447" selection-start-column="0" selection-end-line="447" selection-end-column="0" />
+            <state relative-caret-position="543">
+              <caret line="475" column="232" lean-forward="false" selection-start-line="475" selection-start-column="232" selection-end-line="475" selection-end-column="232" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,7 +160,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FacebookLogin.loginWithFacebook">
+  <component name="RunManager" selected="JUnit.FacebookLogin.failLogin">
+    <configuration name="FacebookLogin.failLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="n11TestOdevi" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FacebookLogin" />
+      <option name="METHOD_NAME" value="failLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="FacebookLogin.loginWithFacebook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="n11TestOdevi" />
@@ -282,14 +302,16 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.FacebookLogin.shouldLoginWithFacebookAccount" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.FacebookLogin.loginWithFacebook" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FacebookLogin.failLogin" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FacebookLogin.loginWithFacebook" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FacebookLogin.shouldLoginWithFacebookAccount" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FacebookLogin.failLogin" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FacebookLogin.loginWithFacebook" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FacebookLogin.shouldLoginWithFacebookAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -308,11 +330,14 @@
       <updated>1505602041439</updated>
       <workItem from="1505602042736" duration="372000" />
       <workItem from="1505604344800" duration="518000" />
-      <workItem from="1506021132757" duration="8039000" />
+      <workItem from="1506021132757" duration="8413000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="FacebookLogin_failLogin - 2017.09.22 at 00h 49m 10s.xml">
+      <configuration name="FacebookLogin.failLogin" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="FacebookLogin_loginWithFacebook - 2017.09.21 at 23h 13m 58s.xml">
       <configuration name="FacebookLogin.loginWithFacebook" configurationId="JUnit" />
     </history-entry>
@@ -331,9 +356,6 @@
     <history-entry file="FacebookLogin_loginWithFacebook - 2017.09.22 at 00h 38m 40s.xml">
       <configuration name="FacebookLogin.loginWithFacebook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FacebookLogin_shouldLoginWithFacebookAccount - 2017.09.21 at 22h 23m 47s.xml">
-      <configuration name="FacebookLogin.shouldLoginWithFacebookAccount" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FacebookLogin_shouldLoginWithFacebookAccount - 2017.09.21 at 22h 37m 24s.xml">
       <configuration name="FacebookLogin.shouldLoginWithFacebookAccount" configurationId="JUnit" />
     </history-entry>
@@ -345,7 +367,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8929000" />
+    <option name="totallyTimeSpent" value="9303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -388,7 +410,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -439,8 +461,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/n11TestOdevi/src/test/java/FacebookLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="913">
-          <caret line="447" column="0" lean-forward="false" selection-start-line="447" selection-start-column="0" selection-end-line="447" selection-end-column="0" />
+        <state relative-caret-position="543">
+          <caret line="475" column="232" lean-forward="false" selection-start-line="475" selection-start-column="232" selection-end-line="475" selection-end-column="232" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

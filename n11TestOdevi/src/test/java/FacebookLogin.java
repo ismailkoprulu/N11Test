@@ -446,6 +446,38 @@ public class FacebookLogin {
 
 
     }
+
+    //Test Case 2
+
+    @Test
+    public void failLogin() throws InterruptedException {
+
+        System.setProperty("webdriver.chrome.driver", "/Users/user/Downloads/chromedriver");
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://www.n11.com/");
+        driver.findElement(By.className("btnSignIn")).click();
+
+        String parentHandle = driver.getWindowHandle();
+
+        driver.findElement(By.className("facebookBtn")).click();
+
+        for (String winHandle : driver.getWindowHandles()) {
+            driver.switchTo().window(winHandle);
+        }
+
+        Thread.sleep(3000);
+        driver.findElement(By.id("email")).clear();
+        driver.findElement(By.name("email")).sendKeys("ismailkoprulu@yandex.com");
+        driver.findElement(By.id("pass")).clear();
+        driver.findElement(By.name("pass")).sendKeys("1234567ik");
+        driver.findElement(By.name("login")).click();
+
+        String errorMessage = "Please re-enter your password";
+        Assert.assertTrue("When member enter false password", errorMessage.contains("Please re-enter your password"));//Aynı kullanıcı ile hatalı password girildiğinde kullanıcı login olamadığından döenen hata mesajı kontrol edildi.
+
+        return;
+
+    }
 }
 
 
